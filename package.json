@@ -1,0 +1,23 @@
+{
+  "name": "get-global-identifiers",
+  "description": "Returns an array of global identifiers for a given js file.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/get-global-identifiers",
+  "scripts": {
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "ava",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "onchange": "^3.0.2",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "acorn-globals": "github:rahatarmanahmed/acorn-globals#abadcaac53560caa225ff9be623e664fe393a5e2"
+  }
+}
