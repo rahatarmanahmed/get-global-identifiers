@@ -1,4 +1,6 @@
 # get-global-identifiers [![Build Status](https://travis-ci.org/rahatarmanahmed/get-global-identifiers.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/get-global-identifiers)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/get-global-identifiers.svg)](https://greenkeeper.io/)
 Returns an array of global identifiers for a given js file.
 
 ## Installing
