@@ -13,9 +13,9 @@
     "prepublish": "npm run test"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.19.1",
     "onchange": "^3.0.2",
-    "standard": "^8.4.0"
+    "standard": "^10.0.2"
   },
   "dependencies": {
     "acorn-globals": "github:rahatarmanahmed/acorn-globals#abadcaac53560caa225ff9be623e664fe393a5e2"
